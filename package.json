@@ -6,7 +6,7 @@
 	"type": "module",
 	"exports": {
 		".": {
-		  "import": "./index.mjs",
+		  "import": "./dist/index.mjs",
 		  "require": "./dist/index.cjs"
 		}
 	},
