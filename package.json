@@ -1,6 +1,6 @@
 {
 	"name": "p-request-retry",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Retry a promise-returning or async function",
 	"license": "MIT",
 	"type": "module",
@@ -18,8 +18,7 @@
 		"build": "npx unbuild"
 	},
 	"files": [
-		"index.js",
-		"index.d.ts"
+		"dist"
 	],
 	"keywords": [
 		"promise",
