@@ -1,5 +1,5 @@
 {
-	"name": "promise-retry",
+	"name": "p-request-retry",
 	"version": "1.0.0",
 	"description": "Retry a promise-returning or async function",
 	"license": "MIT",
