@@ -1,15 +1,15 @@
 {
 	"name": "p-request-retry",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Retry a promise-returning or async function",
 	"license": "MIT",
 	"type": "module",
-	"main": "./dist/index.cjs",
+	"main": "./dist/index.js",
 	"module": "./dist/index.mjs",
 	"exports": {
 		".": {
 			"import": "./dist/index.mjs",
-			"require": "./dist/index.cjs"
+			"require": "./dist/index.js"
 		}
 	},
 	"engines": {
@@ -17,7 +17,7 @@
 	},
 	"scripts": {
 		"test": "xo && ava && tsd",
-		"build": "npx unbuild"
+		"build": "npx unbuild && mv dist/index.cjs dist/index.js"
 	},
 	"files": [
 		"dist"
