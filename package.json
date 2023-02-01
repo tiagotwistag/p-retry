@@ -4,10 +4,12 @@
 	"description": "Retry a promise-returning or async function",
 	"license": "MIT",
 	"type": "module",
+	"main": "./dist/index.js",
+	"module": "./dist/index.mjs",
 	"exports": {
 		".": {
-		  "import": "./dist/index.mjs",
-		  "require": "./dist/index.cjs"
+			"import": "./dist/index.mjs",
+			"require": "./dist/index.cjs"
 		}
 	},
 	"engines": {
